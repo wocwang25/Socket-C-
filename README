@@ -1,0 +1,11 @@
+# Chatting operation for multi-client handled by Socket C++
+- To run this program, ensure that you have a Linux/Unix base OS or simply a VM run on that OS
+- Second, your base can run Makefile (this is optional, you can run each side manually)
+- Step for run server:
+    - cd Socket
+    - make run
+    - ./server
+- After run the server, you need to open new Shell to run as many as client you want
+- Then base on the "fd" information that the server show, you will know "fd" of each client (save on server)
+- Use that "fd" information to connect to other client 
+- Chating~~
